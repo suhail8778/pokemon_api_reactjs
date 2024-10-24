@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  background-color:white;
+} 
+/* 
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 90px;
+    display: flex;
+}
+/* .left-container,.right-container{
+    flex-basis: 50%;
+} */
+
+/* .left-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap: 2rem;
+} */
+
+/* .card{
+    width: 300px;
+    background-color: #9efefd;
+    border-radius: 1rem;
+    box-shadow: 0 5px 5px rgb(0 0 0  0.5);
+    display: flex;
+    padding: 0 1.5rem;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+} */
+
+/* .right-container{
+    width: 50%;
+    text-align: center;
+    color: black;
+    top: 100px;
+    right: 10px;
+} */
+/* .right-container img{
+    margin: 2rem;
+} */
+/* .right-container{
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+
+} */ */
+.abilities{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.abilities .group{
+    background-color: #b74555;
+    color: white;
+    padding: 0.5rem;
+    font-size: 12px;
+    border-radius: 8px;
+}
+.base-stat{
+    margin-top: 2rem;
+}
+
+.btn-group{
+    display: flex;
+}
+
+.btn-group button{
+outline: none;
+border: none;
+width: 150px;
+padding: 0.3rem 0;
+margin: 1rem;
+font-size: 17px;
+font-weight: bold;
+color: white;
+background-color: #b74555;
+border-radius: 8px;
+}
+
+ 
+
+
+.image-container {
+    width: 50px;  /* Set the desired width */
+    height: 40px; /* Set the desired height */
+    overflow:hidden; /* Ensure anything outside the circle is hidden */
+    border-radius: 50%; /* This creates the circular shape */
+    box-shadow: 0 0 15px rgba(224, 222, 222, 0.2); /* Optional shadow for effect */
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire container */
+}
+
+.logo-conn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}

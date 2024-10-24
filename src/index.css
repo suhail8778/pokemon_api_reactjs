@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.btn-small {
+  padding: 5px 10px !important;
+  border-radius: 0 !important;
+}
+
+.btn-warning {
+  color: #000;
+  background-color: #ffc107 !important;
+  border-color: #ffc107 !important;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545 !important;
+  border-color: #dc3545 !important;
+}
+
+
+/*======================
+  404 page
+=======================*/
+
+
+.page_404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: 'Arvo', serif;
+}
+
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 400px;
+  background-position: center;
+}
+
+.four_zero_four_bg h1 {
+  font-size: 80px;
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+}
+
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+.contant_box_404 {
+  margin-top: -50px;
+  text-align: center;
+}
+
+/* quantity */
+
+button {
+  padding: 0;
+  margin: 0;
+  border-style: none;
+  touch-action: manipulation;
+  display: inline-block;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* End Reset for the demo */
+/* Sass Config */
+/* Contrast : 7.2:1 */
+/* End Sass Config */
+.qty {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  text-align: center;
+}
+
+.qty input {
+  width: 4rem;
+  height: 2rem;
+  font-size: 1rem;
+  text-align: center;
+  border: 1px solid #575757;
+}
+
+.qty button {
+  width: 2rem;
+  height: 2rem;
+  color: #fff;
+  font-size: 1rem;
+  background: #dc3545;
+}
+
+.qty button.qtyminus {
+  margin-right: 0.3rem;
+}
+
+.qty button.qtyplus {
+  margin-left: 0.3rem;
+}
